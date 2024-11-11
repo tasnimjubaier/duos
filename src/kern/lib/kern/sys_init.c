@@ -90,6 +90,6 @@ void SYS_ROUTINE(void)
 */
 void display_group_info(void)
 {
-	kprintf("Empty Group!! -- Update Now\n")
+	kprintf("Empty Group!! -- Update Now\n");
 
 }
