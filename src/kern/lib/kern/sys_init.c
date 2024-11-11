@@ -46,6 +46,8 @@
 #endif
 extern UART_HandleTypeDef huart6;
 
+void display_group_info(void);
+
 void __sys_init(void)
 {
 	__init_sys_clock(); //configure system clock 180 MHz
