@@ -92,6 +92,9 @@ void SYS_ROUTINE(void)
 */
 void display_group_info(void)
 {
-	kprintf("Empty Group!! -- Update Now\n");
+	kprintf("Group Members:\n");
+	kprintf("1. Full Name: -, Reg No: -, Roll: -\n");
+	kprintf("2. Full Name: -, Reg No: -, Roll: -\n");
+	kprintf("3. Full Name: Tasnim Jubaier, Reg No: 2016114393, Roll: FH-02\n");
 
 }
