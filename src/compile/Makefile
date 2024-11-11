@@ -33,7 +33,8 @@ CFLAGS=-c \
 -mthumb $(FPU) \
 -std=gnu11 \
 -Wall \
--O0
+-O0 \
+-g
 
 LDFLAGS = -nostdlib \
 -nostartfiles \
