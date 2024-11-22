@@ -1,0 +1,8 @@
+src/compile/build/
+src/compile/object/
+src/compile/target/
+src/compile/mapfiles/
+
+development_logs.txt
+draft.txt 
+
