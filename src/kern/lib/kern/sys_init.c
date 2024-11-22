@@ -67,12 +67,13 @@ void __sys_init(void)
 	kprintf("\n************************************\r\n");
 	kprintf("Booting Machine Intelligence System 1.0 .....\r\n");
 	kprintf("Copyright (c) 2024, Prof. Mosaddek Tushar, CSE, DU\r\n");
-	kprintf("CPUID %x\n", SCB->CPUID);
-	kprintf("OS Version: 2024.1.0.0\n");
-	kprintf("Time Elapse %d ms\n",__getTime());
+	kprintf("CPUID %x\r\n", SCB->CPUID);
+	kprintf("OS Version: 2024.1.0.0\r\n");
+	kprintf("Time Elapse %d ms\r\n",__getTime());
 	kprintf("*************************************\r\n");
 	kprintf("# ");
 	show_system_info();
+	kprintf("\r\n");
 	display_group_info();
 	#endif
 }
@@ -92,9 +93,9 @@ void SYS_ROUTINE(void)
 */
 void display_group_info(void)
 {
-	kprintf("Group Members:\n");
-	kprintf("1. Full Name: -, Reg No: -, Roll: -\n");
-	kprintf("2. Full Name: -, Reg No: -, Roll: -\n");
-	kprintf("3. Full Name: Tasnim Jubaier, Reg No: 2016114393, Roll: FH-02\n");
+	kprintf("\r\nGroup Members:\r\n");
+	kprintf("1. Full Name: -, Reg No: -, Roll: -\r\n");
+	kprintf("2. Full Name: -, Reg No: -, Roll: -\r\n");
+	kprintf("3. Full Name: Tasnim Jubaier, Reg No: 2016114393, Roll: FH-02\r\n");
 
 }
