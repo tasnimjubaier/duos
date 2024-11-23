@@ -33,8 +33,8 @@ CFLAGS=-c \
 -mthumb $(FPU) \
 -std=gnu11 \
 -Wall \
--O0 \
--g
+-O0 
+
 
 LDFLAGS = -nostdlib \
 -nostartfiles \
@@ -219,5 +219,5 @@ clean:
 
 # To Students -- Modify to match with the appropriate driver file.
 load:
-	openocd -f /usr/share/openocd/scripts/board/stm32f4discovery.cfg -f /usr/share/openocd/scripts/interface/stlink.cfg -c "program target/duos verify reset exit"
+	openocd -f interface/stlink.cfg -f target/stm32f4x.cfg -c "program target/duos verify reset exit"
 
